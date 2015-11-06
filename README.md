@@ -9,7 +9,7 @@ US_WOE_ID=23424977
 
 #Prefix ID with the underscore for query string parameterization
 #Without the underscore, the twitter package appends the ID value
-# tothe URL itself as a special case keyword argument.
+# to the URL itself as a special case keyword argument.
 
 world_tends=twitter_api.tends.place(_id=WORLD_WOE_ID)
 us_trends=twitter_api.tends.place(_id-US_WOE_ID)
